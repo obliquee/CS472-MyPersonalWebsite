@@ -1,0 +1,41 @@
+*{
+    background-color: black;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+
+body{
+    margin-left: 25px;
+}
+
+h1#aboutme{
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+h1, h3{
+    color: blue;
+}
+
+h3{
+    margin-bottom: 10px;
+}
+
+p b{
+    color: yellow;
+}
+
+#classsection{
+    border: white solid 1em;
+}
+
+#moviesection{
+    border: green solid 1em;
+}
+
+section#moviesection > div > ul > li > a{
+    color: rgb(138, 34, 34);
+    text-decoration: underline;
+}
+
