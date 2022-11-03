@@ -1,0 +1,74 @@
+
+
+
+body{
+    background-color: white;
+    color: #404040;
+    font: 11pt;
+    font-family: Georgia, Garamond, serif;
+    margin: 0 50px 0 50px;
+}
+
+#ingredientheading, #directionsheading, #mainHeading, #usercomments , #links{
+    color: #A4A400;
+    background-color: #f0f0f0;
+}
+
+.comment{
+    background-color: yellow;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+#mainHeading > h1 {
+    text-align: center;
+    font: 22pt bold;   
+}
+
+#directionsheading > h1{
+    font: 18pt normal; 
+}
+
+#ingredientheading > h1{
+    font: 18pt normal; 
+}
+
+#usercomments > h1{
+    font: 18pt normal; 
+}
+
+#links > h1{
+    font: 18pt normal; 
+}
+
+.tooltiptext{
+  visibility: hidden;
+  background-color: #A4A400;
+  color: white;
+  text-align: center;
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+ 
+}
+
+.tbsp:hover .tooltiptext {
+  visibility: visible;
+}
+
+.tsp:hover .tooltiptext {
+    visibility: visible;
+}
+
+a{
+    color: #A4A400 ;
+}
+
+.copyright > div{
+    width: 25vw;
+    font-family: monospace;
+    text-align: right;
+}
+
+#linethrough{
+    text-decoration: line-through;
+}
