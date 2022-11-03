@@ -36,14 +36,14 @@ p b{
     border: green solid 1em;
 }
 
-section#moviesection > div > ul > li > a{
+section#moviesection > div > ol > li > a{
     color: rgb(138, 34, 34);
     /* text-decoration: underline; */
     
     margin-top: 200px;
 }
 
-section#moviesection > div > ul > li > a:hover{
+section#moviesection > div > ol > li > a:hover{
     background-color: yellow;
     text-decoration: underline;
 }
@@ -54,7 +54,23 @@ section#moviesection1 > div > ol {
     margin-left: 43px;
 }
 
+section#moviesection1 > div > ol > li > a{
+    color: rgb(138, 34, 34);
+    /* text-decoration: underline; */
+    
+    margin-top: 200px;
+}
+
+section#moviesection1 > div > ol > li > a:hover{
+    background-color: yellow;
+    text-decoration: underline;
+}
+
 section#moviesection1 > div > ol > li {
     transform: rotate(-180deg);   
+}
+
+dt{
+    color: yellow;
 }
 
