@@ -63,7 +63,7 @@ a{
     color: #A4A400 ;
 }
 
-.copyright > div{
+.copyright{
     width: 15vw;
     font-family: monospace;
     text-align: right;
