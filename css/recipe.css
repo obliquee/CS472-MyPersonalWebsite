@@ -3,6 +3,9 @@
 
 body{
     background-color: white;
+    background-image: url("/images/silverware.jpg");
+    background-repeat: repeat;
+    background-attachment: fixed;
     color: #404040;
     font: 11pt;
     font-family: Georgia, Garamond, serif;
@@ -18,6 +21,7 @@ body{
     background-color: yellow;
     margin-left: 70px;
     margin-right: 70px;
+    font-style: italic;
 }
 
 #mainHeading > h1 {
@@ -41,26 +45,12 @@ body{
     font: 18pt normal; 
 }
 
-.tooltiptext{
-  visibility: hidden;
-  background-color: #A4A400;
-  color: white;
-  text-align: center;
-  /* Position the tooltip text - see examples below! */
-  position: absolute;
- 
-}
-
-.tbsp:hover .tooltiptext {
-  visibility: visible;
-}
-
-.tsp:hover .tooltiptext {
-    visibility: visible;
-}
-
 a{
     color: #A4A400 ;
+}
+
+ul{
+    list-style-image: url("../images/pie_bullet.png");
 }
 
 .copyright{
