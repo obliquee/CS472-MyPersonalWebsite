@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support Center</title>
+    <link rel="stylesheet" href="../css/supportcenter.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div id="grid-header">
+                
+                   <div class="title">
+                    <div>
+                        <img src="../images/miulogo.PNG" alt="miu logo" height="50px" width="50px">
+                    </div>
+
+                    <div>
+                        <h3> &nbsp;&nbsp;| Compro Help Desk</h3>
+                    </div>
+                   </div>
+                
+                <div id="menuitem">
+                    <h4>Agent Portal</h4> &nbsp;&nbsp;&nbsp;&nbsp;
+                    <h4>Submit Ticket</h4> &nbsp;&nbsp;&nbsp;&nbsp;
+                    <h4>Knowledge Base</h4> &nbsp;&nbsp;&nbsp;&nbsp;
+                    <h4>Login</h4>
+                </div>
+
+            </div>
+
+            
+        </nav>
+    </header>
+
+    <main>
+
+        <section>
+            <h1>Welcome to our Support Center</h1>
+        </section>
+        
+        <div id="content">
+            <div id="loginsection">
+                <h2>Login</h2>
+                <p>Login to know the status of the ticket</p>
+                <div>
+                    <form method="get" action="supportcenter.html" >
+                        <div id="formlogo">
+                            <a href="#"> 
+                                <img alt="Login using Azure AD" src="../images/azure ad.png" >
+                            </a>
+                            <p>or login using</p>
+                        </div>
+                        <div>
+                            <label for="username">Username or Email</label>
+                        
+                            <input type="text" name="username" id="username" placeholder="Enter email" autofocus>
+                        </div>
+                        <div>
+                            <label for="password">Password</label>
+                        
+                            <input type="password" name="password" id="password" placeholder="Enter password">
+                        </div>
+                        <div id="remembersection"> 
+                            <label for="remember">  
+                                <input type="checkbox" name="remember" id="remember" checked> Remember Me
+                            </label>
+                            <a href="#">Forgot password?</a>
+                        </div>
+                        <div id="loginbutton">
+                            <input type="button" value="Login">
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div id="ticketsection">
+                <h3>Login to track your existing support requests. If you have not created a ticket yet then you
+                    would need to <a href="#">register</a> or <a href="">create a new ticket</a> to begin.</h3>
+                <div id="submitticket">
+                    <a href="#">Submit Ticket</a>
+                </div>
+            </div>
+        </div>
+    </main>
+   
+
+    <footer>
+        <div>
+            <span>Copyright 2022, All rights reserved</span>
+        </div>
+    </footer>
+</body>
+
+</html>
