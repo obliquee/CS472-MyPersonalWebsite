@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Site</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+        integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
+        integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+    </header>
+
+    <main>
+
+        <div class="m-5">
+
+            <form id="loginform" class="row g-3 needs-validation">
+                <div>
+                    <div class="col-md-6 offset-2 p-2">
+                        <label for="emailAddress" class="form-label">Email address</label>
+                        <input type="text" class="form-control input-group-lg" id="emailAddress"
+                            placeholder="Enter Email">
+                        <span class="font-weight-light">We'll never share your email with anyone else.</span>
+                    </div>
+
+                    <div class="col-md-6 offset-2 p-2">
+
+                        <label for="userpassword" class="form-label">Password</label>
+                        <input type="password" class="form-control" id="userpassword" placeholder="Password(10 character,lowercase, uppercase and number)"
+                            pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z\d]{10,}" >
+                       
+                    </div>
+
+                    <div class="col-md-6 offset-2 p-2">
+                        <label for="websiteUrl" class="form-label">Website Url</label>
+                        <input type="text" class="form-control input-group-lg" id="websiteUrl"
+                            placeholder="Enter URL(Begin with http:// or https://)" pattern="https?://.*">
+                        <span class="font-weight-light">We'll never share your email with anyone else.</span>
+                    </div>
+
+                    <div class="col-md-6 offset-2 p-2">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="invalidCheck">
+                            <label class="form-check-label" for="invalidCheck">
+                                Check me out
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="col-12 offset-2 p-2">
+                        <button class="btn-lg btn-primary" type="submit">Submit</button>
+                    </div>
+                </div>
+
+            </form>
+        </div>
+
+
+    </main>
+
+    <footer>
+
+    </footer>
+
+</body>
+
+</html>

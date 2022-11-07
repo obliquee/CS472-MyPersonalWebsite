@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Site</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+
+
+<heder>
+   
+   
+   
+    <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+        <a class="navbar-brand text-white p-4" href="#">MUM Golden Dome Market: : :SRM System</a>
+        <button class="navbar-toggler bg-white" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active  offset-2">
+              <a class="nav-link text-white" href="#"> Products</a>
+            </li>
+            <li class="nav-item offset-2">
+              <a class="nav-link text-white" href="#">Suppliers</a>
+            </li>
+           
+            
+          </ul>
+
+          <div class="text-white p-4">
+            <span>Hello!</span>
+            <button class="border-light" type="button">Sign Out</button>
+          </div>
+        </div>
+      </nav>
+
+   
+</heder>
+
+<main>
+
+      <div class="m-5" id="maindiv">
+
+      
+        <form class="row g-3 needs-validation">
+          <div class="p-3 font-weight-bold ml-5"><h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;New Product Form</h1></div>
+          <div class="col-md-4 offset-1">
+            <label for="productNumber" class="form-label">Product Number</label>
+            <input type="text" class="form-control" id="productNumber" value="" required>
+          </div>
+          <div class="col-md-4 offset-1">
+            <label for="productQuantity" class="form-label">Quantity in stock</label>
+            <input type="number" class="form-control" id="productQuantity" value="0" required>
+          </div>
+         
+          <div class="col-md-4 offset-1">
+            <label for="productName" class="form-label">Name</label>
+            <input type="text" class="form-control" id="productName"  required>
+          </div>
+          <div class="col-md-4 offset-1">
+            <label for="validationCustom02" class="form-label">Supplier</label>
+            <select class="form-select" required>
+                <option>Select a Supplier</option>
+                 <option>Supplier 1</option>
+                 <option>Supplier 2</option>
+                 <option>Supplier 3</option>
+                 <option>Supplier 4</option>
+            </select>
+          </div>
+
+          <div class="col-md-4 offset-1">
+            <label for="unitPrice" class="form-label">Unit Price</label>
+            <input type="number" class="form-control" id="unitPrice" pattern="\d*(\.\d{0,2})"  required>
+          </div>
+
+          <div class="col-md-4 offset-1">
+            <label for="dateSupplied" class="form-label">Date Supplied</label>
+            <input type="date" class="form-control" id="dateSupplied"  required>
+            <span>Enter a valid Date.</span>
+          </div>
+
+        <div class="m-5">
+         <div class="offset-7">
+            <button class="btn-md border border-primary  mr-2" type="reset">Reset</button>
+            <button class="btn-md border border-danger mr-2" type="submit">Cancel</button>
+            <button class="btn-md border border-info" type="button">Add Product</button>
+         </div>
+        </div>
+         
+        </form>
+
+    </div> 
+
+</main>
+
+</body>
+</html>
