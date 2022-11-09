@@ -13,6 +13,8 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
         integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/"
         crossorigin="anonymous"></script>
+        <script defer src="../js/login.js"></script>
+    
 </head>
 
 <body>
@@ -23,7 +25,8 @@
 
         <div class="m-5">
 
-            <form id="loginform" class="row g-3 needs-validation">
+            <form id="loginform" class="row g-3 needs-validation"> 
+                <!-- onsubmit="event.preventDefault(); showInputField();" -->
                 <div>
                     <div class="col-md-6 offset-2 p-2">
                         <label for="emailAddress" class="form-label">Email address</label>
@@ -57,7 +60,7 @@
                     </div>
 
                     <div class="col-12 offset-2 p-2">
-                        <button class="btn-lg btn-primary" type="submit">Submit</button>
+                        <button class="btn-lg btn-primary" type="button" id="submit">Submit</button>
                     </div>
                 </div>
 
@@ -70,7 +73,9 @@
     <footer>
 
     </footer>
-
+   
+    
+    
 </body>
 
 </html>
